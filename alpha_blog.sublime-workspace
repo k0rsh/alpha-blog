@@ -1,0 +1,427 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ha",
+				"has_many"
+			],
+			[
+				"la",
+				"latest_order"
+			],
+			[
+				"update",
+				"updated"
+			],
+			[
+				"pr",
+				"product"
+			],
+			[
+				"produ",
+				"add_product"
+			],
+			[
+				"ca",
+				"cart_id"
+			],
+			[
+				"se",
+				"session"
+			],
+			[
+				"be",
+				"belongs_to"
+			],
+			[
+				"mar",
+				"margin-left"
+			],
+			[
+				"pa",
+				"padding-right"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"fon",
+				"font-family"
+			],
+			[
+				"bo",
+				"border-bottom"
+			],
+			[
+				"bot",
+				"border-top"
+			],
+			[
+				"fo",
+				"font-size"
+			],
+			[
+				"destroy",
+				"destroy"
+			],
+			[
+				"set_",
+				"set_line_item"
+			],
+			[
+				"bor",
+				"border-top"
+			],
+			[
+				"total",
+				"total_price"
+			],
+			[
+				"session",
+				"session_counter"
+			],
+			[
+				"sess",
+				"session_counter"
+			],
+			[
+				"line_",
+				"line_item_params"
+			],
+			[
+				"in",
+				"inline"
+			],
+			[
+				"f",
+				"font-size"
+			],
+			[
+				"li",
+				"list-style"
+			],
+			[
+				"ba",
+				"background"
+			],
+			[
+				"marg",
+				"margin-bottom"
+			],
+			[
+				"border-c",
+				"border-color"
+			],
+			[
+				"bore",
+				"border"
+			],
+			[
+				"ma",
+				"margin-bottom"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"paddin",
+				"padding-bottom"
+			],
+			[
+				"ti",
+				"title"
+			],
+			[
+				"new",
+				"new_product"
+			],
+			[
+				"ass",
+				"assert"
+			],
+			[
+				"up",
+				"update"
+			],
+			[
+				"image_",
+				"image_url"
+			],
+			[
+				"pad",
+				"padding-left"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 150.0,
+		"selected_items":
+		[
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: inst",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Enable Package"
+			]
+		],
+		"width": 472.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/E/Ruby21-x64/workspace/test_app/Gemfile",
+		"/E/Ruby21-x64/workspace/depot/app/controllers/line_items_controller.rb",
+		"/E/Ruby21-x64/workspace/depot/app/views/line_items/create.js.erb",
+		"/E/Ruby21-x64/workspace/depot/app/controllers/orders_controller.rb",
+		"/E/Ruby21-x64/workspace/depot/app/views/carts/_cart.html.erb",
+		"/E/Ruby21-x64/workspace/depot/config/application.rb",
+		"/E/Ruby21-x64/workspace/depot/test/controllers/orders_controller_test.rb",
+		"/E/Ruby21-x64/workspace/depot/app/models/product.rb",
+		"/E/Ruby21-x64/workspace/depot/config/routes.rb",
+		"/E/Ruby21-x64/workspace/depot/app/controllers/products_controller.rb",
+		"/E/Ruby21-x64/workspace/depot/app/models/order.rb",
+		"/E/Ruby21-x64/workspace/depot/app/views/line_items/_line_item.html.erb",
+		"/E/Ruby21-x64/workspace/depot/app/assets/stylesheets/application.scss",
+		"/E/Ruby21-x64/workspace/depot/app/assets/javascripts/store.coffee",
+		"/E/Ruby21-x64/workspace/depot/app/models/cart.rb",
+		"/E/Ruby21-x64/workspace/depot/app/views/layouts/application.html.erb",
+		"/E/Ruby21-x64/workspace/depot/app/helpers/application_helper.rb",
+		"/E/Ruby21-x64/workspace/depot/test/models/product_test.rb",
+		"/E/Ruby21-x64/workspace/depot/app/views/store/index.html.erb",
+		"/E/Ruby21-x64/workspace/depot/app/assets/stylesheets/products.scss",
+		"/E/Ruby21-x64/workspace/depot/app/assets/javascripts/line_items.coffee",
+		"/C/Users/KorsH/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/C/Users/KorsH/AppData/Roaming/Sublime Text 2/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/KorsH/AppData/Roaming/Sublime Text 2/Packages/Default/Default (Windows).sublime-keymap",
+		"/E/Ruby21-x64/workspace/depot/app/controllers/carts_controller.rb",
+		"/E/Ruby21-x64/workspace/depot/test/controllers/carts_controller_test.rb",
+		"/C/Users/KorsH/AppData/Roaming/Sublime Text 2/Packages/RubyTest/Default.sublime-keymap",
+		"/E/Ruby21-x64/workspace/depot/app/controllers/store_controller.rb",
+		"/E/Ruby21-x64/workspace/depot/app/helpers/carts_helper.rb",
+		"/E/Ruby21-x64/workspace/depot/app/controllers/application_controller.rb",
+		"/E/Ruby21-x64/workspace/depot/app/views/orders/_form.html.erb",
+		"/E/Ruby21-x64/workspace/depot/app/views/orders/new.html.erb",
+		"/E/Ruby21-x64/workspace/depot/app/models/line_item.rb",
+		"/E/Ruby21-x64/workspace/depot/app/views/line_items/index.html.erb",
+		"/E/Ruby21-x64/workspace/depot/app/assets/javascripts/application.js",
+		"/E/Ruby21-x64/workspace/depot/Gemfile",
+		"/E/Ruby21-x64/workspace/depot/app/assets/stylesheets/line_items.scss",
+		"/E/Ruby21-x64/workspace/depot/app/views/carts/show.html.erb",
+		"/E/Ruby21-x64/workspace/depot/app/assets/stylesheets/store.scss",
+		"/E/Ruby21-x64/workspace/depot/app/assets/stylesheets/carts.scss",
+		"/E/Ruby21-x64/workspace/depot/db/migrate/20160421183528_combine_items_in_cart.rb",
+		"/E/Ruby21-x64/workspace/depot/db/migrate/20160419210816_add_quantity_to_line_items.rb",
+		"/E/Ruby21-x64/workspace/depot/app/controllers/concerns/current_cart.rb",
+		"/E/Ruby21-x64/workspace/depot/app/views/carts/index.html.erb",
+		"/E/Ruby21-x64/workspace/depot/config/environments/development.rb",
+		"/E/Ruby21-x64/workspace/depot/test/controllers/products_controller_test.rb",
+		"/E/Ruby21-x64/workspace/depot/test/fixtures/products.yml",
+		"/C/Users/KorsH/AppData/Roaming/Sublime Text 2/Packages/User/Plain text.sublime-settings",
+		"/C/Users/KorsH/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/E/Ruby21-x64/workspace/depot/app/views/products/index.html.erb",
+		"/E/Ruby21-x64/workspace/depot/app/views/products/_form.html.erb",
+		"/E/Ruby21-x64/workspace/depot/db/migrate/20160416143834_create_products.rb",
+		"/E/Ruby21-x64/workspace/demo/app/views/say/goodbye.html.erb",
+		"/E/Ruby21-x64/workspace/demo/app/controllers/say_controller.rb",
+		"/E/Ruby21-x64/workspace/demo/app/views/say/hello.html.erb",
+		"/E/Ruby21-x64/workspace/demo/app/views/layouts/application.html.erb",
+		"/E/Ruby21-x64/workspace/demo/config/routes.rb",
+		"/C/Server/apps/apache/conf/httpd.conf",
+		"/C/Users/KorsH/AppData/Roaming/SketchUp/SketchUp 2015/SketchUp/Plugins/DM_artisan/artisan.rb",
+		"/C/Users/KorsH/workspace/ror/work/demo/app/helpers/say_helper.rb",
+		"/C/Users/KorsH/workspace/ror/work/demo/app/views/say/hello.html.erb",
+		"/C/Users/KorsH/workspace/ror/work/demo/app/controllers/say_controller.rb"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"esc",
+			"tab",
+			"ahead",
+			"search",
+			"validato"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 206.0
+	},
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"rout",
+				"config/routes.rb"
+			],
+			[
+				"gem",
+				"Gemfile"
+			],
+			[
+				"ap",
+				"config/application.rb"
+			],
+			[
+				"crea",
+				"app/views/line_items/create.js.erb"
+			],
+			[
+				"pro",
+				"app/models/product.rb"
+			],
+			[
+				"ro",
+				"config/routes.rb"
+			],
+			[
+				"pc",
+				"app/controllers/products_controller.rb"
+			],
+			[
+				"oct",
+				"test/controllers/orders_controller_test.rb"
+			],
+			[
+				"order",
+				"app/models/order.rb"
+			],
+			[
+				"oc",
+				"app/controllers/orders_controller.rb"
+			],
+			[
+				"pt",
+				"test/models/product_test.rb"
+			],
+			[
+				"car",
+				"app/models/cart.rb"
+			],
+			[
+				"cc",
+				"app/controllers/carts_controller.rb"
+			],
+			[
+				"cart",
+				"app/models/cart.rb"
+			],
+			[
+				"sto",
+				"app/controllers/store_controller.rb"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 329.0,
+	"status_bar_visible": true
+}
