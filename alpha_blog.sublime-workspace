@@ -159,6 +159,46 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "config/routes.rb",
+			"settings":
+			{
+				"buffer_size": 1654,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/controllers/pages_controller.rb",
+			"settings":
+			{
+				"buffer_size": 84,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/views/pages/home.html.erb",
+			"settings":
+			{
+				"buffer_size": 54,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/views/pages/about.html.erb",
+			"settings":
+			{
+				"buffer_size": 53,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Gemfile",
+			"settings":
+			{
+				"buffer_size": 1592,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -196,6 +236,7 @@
 	},
 	"file_history":
 	[
+		"/E/Ruby21-x64/workspace/alpha-blog/README.rdoc",
 		"/E/Ruby21-x64/workspace/test_app/Gemfile",
 		"/E/Ruby21-x64/workspace/depot/app/controllers/line_items_controller.rb",
 		"/E/Ruby21-x64/workspace/depot/app/views/line_items/create.js.erb",
@@ -297,8 +338,141 @@
 	"groups":
 	[
 		{
+			"selected": 4,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "config/routes.rb",
+					"settings":
+					{
+						"buffer_size": 1654,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								285,
+								285
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/Ruby on Rails.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/controllers/pages_controller.rb",
+					"settings":
+					{
+						"buffer_size": 84,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								78,
+								78
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/Ruby on Rails.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/views/pages/home.html.erb",
+					"settings":
+					{
+						"buffer_size": 54,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								41,
+								41
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/views/pages/about.html.erb",
+					"settings":
+					{
+						"buffer_size": 53,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								45,
+								45
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "Gemfile",
+					"settings":
+					{
+						"buffer_size": 1592,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1587,
+								1587
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 155.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -347,6 +521,14 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"read",
+				"README.rdoc"
+			],
+			[
+				"rou",
+				"config/routes.rb"
+			],
 			[
 				"rout",
 				"config/routes.rb"
