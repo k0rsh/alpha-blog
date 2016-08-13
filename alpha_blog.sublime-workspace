@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"arti",
+				"article_params"
+			],
+			[
+				"redire",
+				"redirect_to"
+			],
+			[
 				"ha",
 				"has_many"
 			],
@@ -163,40 +171,56 @@
 			"file": "config/routes.rb",
 			"settings":
 			{
-				"buffer_size": 1654,
+				"buffer_size": 1676,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "app/controllers/pages_controller.rb",
+			"file": "app/controllers/articles_controller.rb",
 			"settings":
 			{
-				"buffer_size": 84,
+				"buffer_size": 1264,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "app/views/pages/home.html.erb",
+			"file": "app/views/articles/index.html.erb",
 			"settings":
 			{
-				"buffer_size": 54,
+				"buffer_size": 430,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "app/views/pages/about.html.erb",
+			"file": "app/views/articles/edit.html.erb",
 			"settings":
 			{
-				"buffer_size": 53,
+				"buffer_size": 493,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "Gemfile",
+			"file": "app/views/articles/show.html.erb",
 			"settings":
 			{
-				"buffer_size": 1592,
+				"buffer_size": 211,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/views/layouts/application.html.erb",
+			"settings":
+			{
+				"buffer_size": 380,
 				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/articles/new.html.erb",
+			"settings":
+			{
+				"buffer_size": 478,
+				"line_ending": "Windows"
 			}
 		}
 	],
@@ -236,6 +260,16 @@
 	},
 	"file_history":
 	[
+		"/E/Ruby21-x64/workspace/alpha-blog/app/views/articles/_back_link.html.erb",
+		"/E/Ruby21-x64/workspace/alpha-blog/app/models/article.rb",
+		"/E/Ruby21-x64/workspace/alpha-blog/app/views/articles/new.html.erb",
+		"/E/Ruby21-x64/workspace/alpha-blog/db/schema.rb",
+		"/E/Ruby21-x64/workspace/alpha-blog/app/views/pages/about.html.erb",
+		"/E/Ruby21-x64/workspace/alpha-blog/app/views/pages/home.html.erb",
+		"/E/Ruby21-x64/workspace/alpha-blog/app/controllers/pages_controller.rb",
+		"/E/Ruby21-x64/workspace/alpha-blog/db/migrate/20160613141111_add_description_to_articles.rb",
+		"/E/Ruby21-x64/workspace/alpha-blog/db/migrate/20160613140301_create_articles.rb",
+		"/E/Ruby21-x64/workspace/alpha-blog/Gemfile",
 		"/E/Ruby21-x64/workspace/alpha-blog/README.rdoc",
 		"/E/Ruby21-x64/workspace/test_app/Gemfile",
 		"/E/Ruby21-x64/workspace/depot/app/controllers/line_items_controller.rb",
@@ -346,15 +380,15 @@
 					"file": "config/routes.rb",
 					"settings":
 					{
-						"buffer_size": 1654,
+						"buffer_size": 1676,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								285,
-								285
+								317,
+								317
 							]
 						],
 						"settings":
@@ -371,23 +405,24 @@
 				},
 				{
 					"buffer": 1,
-					"file": "app/controllers/pages_controller.rb",
+					"file": "app/controllers/articles_controller.rb",
 					"settings":
 					{
-						"buffer_size": 84,
+						"buffer_size": 1264,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								78,
-								78
+								72,
+								72
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Rails/Ruby on Rails.tmLanguage"
+							"syntax": "Packages/Rails/Ruby on Rails.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -397,23 +432,24 @@
 				},
 				{
 					"buffer": 2,
-					"file": "app/views/pages/home.html.erb",
+					"file": "app/views/articles/index.html.erb",
 					"settings":
 					{
-						"buffer_size": 54,
+						"buffer_size": 430,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								41,
-								41
+								343,
+								343
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -423,18 +459,45 @@
 				},
 				{
 					"buffer": 3,
-					"file": "app/views/pages/about.html.erb",
+					"file": "app/views/articles/edit.html.erb",
 					"settings":
 					{
-						"buffer_size": 53,
+						"buffer_size": 493,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								45,
-								45
+								493,
+								493
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "app/views/articles/show.html.erb",
+					"settings":
+					{
+						"buffer_size": 211,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								185,
+								185
 							]
 						],
 						"settings":
@@ -448,27 +511,54 @@
 					"type": "text"
 				},
 				{
-					"buffer": 4,
-					"file": "Gemfile",
+					"buffer": 5,
+					"file": "app/views/layouts/application.html.erb",
 					"settings":
 					{
-						"buffer_size": 1592,
+						"buffer_size": 380,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1587,
-								1587
+								338,
+								338
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 155.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "app/views/articles/new.html.erb",
+					"settings":
+					{
+						"buffer_size": 478,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								478,
+								453
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -521,6 +611,18 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"ne",
+				"app/views/articles/new.html.erb"
+			],
+			[
+				"sch",
+				"db/schema.rb"
+			],
+			[
+				"sc",
+				"db/schema.rb"
+			],
 			[
 				"read",
 				"README.rdoc"
