@@ -1,5 +1,8 @@
 class ArticlesController < ApplicationController
 
+before_action :set_article, only: [:edit, :update, :show, :destroy]
+
+
 def index
 	@articles = Article.all
 end
@@ -9,7 +12,7 @@ def new
 end
 
 def edit
-	@article = Article.find(params[:id])  # prepare @article variable for the 'edit' template
+	# prepare @article variable for the 'edit' template by calling before_action
 end
 
 def create
@@ -27,7 +30,7 @@ def create
 end
 
 def update
-	@article = Article.find(params[:id])
+	# set article called via before_action
 
 	if @article.update(article_params)
 		flash[:notice] = "Article update succeded"
@@ -38,11 +41,11 @@ def update
 end
 
 def show
-	@article = Article.find(params[:id])	# find article in table Article by :id passed via GET request param (article/:id)
+	# before_action: find article in table Article by :id passed via GET request param (article/:id)
 end
 
 def destroy
-	@article=Article.find(params[:id])		#find an article by :id passed via DELETE request
+	# before_action: find an article by :id passed via DELETE request
 	@article.destroy
 
 	flash[:notice] = "Article was successfully destroyed"
@@ -51,6 +54,10 @@ end
 
 
 private
+	def set_article
+		@article = Article.find(params[:id]) 	# find article in table Article by :id param
+	end
+
 	def article_params
 		params.require(:article).permit(:title, :description)	# permit passing title & description via :article parameter	
 	end
