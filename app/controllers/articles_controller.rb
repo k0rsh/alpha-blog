@@ -21,7 +21,7 @@ def create
 	@article = Article.new(article_params)
 	
 	if @article.save
-		flash[:notice] = "Operation succeded!"  # pass flash named ":notice" to application layout html
+		flash[:success] = "Operation succeded!"  # pass flash named ":notice" to application layout html
 		# redirecting to show method passing current @article instance variable, containing created article
 		redirect_to article_path(@article)
 	else
@@ -33,7 +33,7 @@ def update
 	# set article called via before_action
 
 	if @article.update(article_params)
-		flash[:notice] = "Article update succeded"
+		flash[:success] = "Article update succeded"
 		redirect_to article_path(@article)	# show the edited article
 	else
 		render :edit  # render edit template once again if validation failed
@@ -48,7 +48,7 @@ def destroy
 	# before_action: find an article by :id passed via DELETE request
 	@article.destroy
 
-	flash[:notice] = "Article was successfully destroyed"
+	flash[:danger] = "Article was successfully destroyed"
 	redirect_to articles_path
 end
 
