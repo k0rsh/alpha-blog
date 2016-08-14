@@ -20,6 +20,9 @@ def create
 	# render plain: params[:article].inspect
 	@article = Article.new(article_params)
 	
+	# HARDCODE! TO BE REMOVED prior to prod deployment!
+	@article.user = User.first
+
 	if @article.save
 		flash[:success] = "Operation succeded!"  # pass flash named ":notice" to application layout html
 		# redirecting to show method passing current @article instance variable, containing created article
