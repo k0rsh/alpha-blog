@@ -45,6 +45,15 @@ $navbar-default-bg: black;
 	left: -15px;
 }
 
+.article-actions {
+	border-top: 1px solid #eaeaea;
+	padding-top: 5px;
+}
+
+.description {
+	margin-top: 0;
+}
+
 footer {
 	margin-top: 45px;
 	padding-top: 5px;
@@ -69,3 +78,4 @@ footer ul li {
 	float: left;
 	margin-left: 15px;
 }
+
